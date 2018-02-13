@@ -1,0 +1,8 @@
+dataProvider\ConfigDataProvider.class
+applicationFactory\BrowserFactory.class
+dataProvider\ExcelDataProvider.class
+helper\BaseClass.class
+applicationPages\LoginPage.class
+applicationTestCases\LoginCRM.class
+helper\Utility.class
+applicationFactory\DataProviderFactory.class
