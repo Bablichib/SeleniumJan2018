@@ -73,13 +73,13 @@
 				<configuration>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile>
+						<suiteXmlFile>XMLFiles/AddUser</suiteXmlFile>
 					</suiteXmlFiles>
 					
-					<systemPropertyVariables>
+					<!-- <systemPropertyVariables>
 					<RuntimeBrowser>${Browser}</RuntimeBrowser>
 					
-					</systemPropertyVariables>
+					</systemPropertyVariables> -->
 
 				</configuration>
 			</plugin>
