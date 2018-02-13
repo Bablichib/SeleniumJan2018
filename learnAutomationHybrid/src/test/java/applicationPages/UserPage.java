@@ -37,11 +37,11 @@ public UserPage(WebDriver ldriver) {
 		act.moveToElement(Utility.waitForWebElement(driver, users, 20)).click().build().perform();
 		Utility.waitForWebElement(driver, addbutton, 20).click();
 		Utility.waitForWebElement(driver, username, 20).sendKeys("Babli");
-		Utility.waitForWebElement(driver, empname, 20).sendKeys("r");
+		Utility.waitForWebElement(driver, empname, 20).sendKeys("R");
 		List<WebElement> list= driver.findElements(By.xpath("//div[@class='ac_results']//li"));
 		for(WebElement abc: list) {
 			String list1= abc.getAttribute("innerHTML");
-			if(list1.contains("rohit")) {
+			if(list1.contains("Robert")) {
 		abc.click();
 		break;
 			}
