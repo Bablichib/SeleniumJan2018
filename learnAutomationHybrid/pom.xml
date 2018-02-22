@@ -73,7 +73,7 @@
 				<configuration>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>XMLFiles/AddUser</suiteXmlFile>
+						<suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
 					
 					<!-- <systemPropertyVariables>
