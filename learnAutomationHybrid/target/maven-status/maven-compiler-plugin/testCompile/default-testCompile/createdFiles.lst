@@ -1,8 +1,15 @@
 dataProvider\ConfigDataProvider.class
-applicationFactory\BrowserFactory.class
+unitTestCases\HeadlessBrowserTest.class
 dataProvider\ExcelDataProvider.class
 helper\BaseClass.class
 applicationPages\LoginPage.class
+applicationTestCases\AddUser.class
 applicationTestCases\LoginCRM.class
 helper\Utility.class
 applicationFactory\DataProviderFactory.class
+unitTestCases\SeleniumTestCloud.class
+applicationFactory\BrowserFactory.class
+unitTestCases\SeleniumTestCloudmobile.class
+unitTestCases\SeleniumGridTestCase.class
+applicationPages\UserPage.class
+helper\BaseClassCloud.class

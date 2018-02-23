@@ -71,7 +71,7 @@ public class BrowserFactory {
 		return driver;
 		
 	}
-	public static WebDriver startApllicationOnCloud(String browser, String Url, String osName, String version, String device) {
+	public static WebDriver startApllicationOnCloud(String browser, String Url, String osName, String version) {
 		System.out.println("INFO: Setting up the browser on cloud");
 		
 		WebDriver driver = null;
@@ -81,7 +81,7 @@ public class BrowserFactory {
 		cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		cap.setCapability("os", osName);
 		cap.setCapability("os_version", version);
-		cap.setCapability("device", device);
+		
 		
 		 final String USERNAME = "bablichib1";
 		 final String AUTOMATE_KEY = "JUzT6ykyT8U16Xhutape";

@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import applicationFactory.DataProviderFactory;
 import applicationPages.LoginPage;
 import helper.BaseClass;
+import helper.BaseClassCloud;
 
 public class LoginCRM extends BaseClass {
 	

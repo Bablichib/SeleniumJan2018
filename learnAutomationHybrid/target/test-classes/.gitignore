@@ -1,2 +1,6 @@
-/unitTestCases/
 /applicationFactory/
+/applicationPages/
+/applicationTestCases/
+/dataProvider/
+/helper/
+/unitTestCases/

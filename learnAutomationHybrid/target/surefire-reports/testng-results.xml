@@ -2,50 +2,60 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31853" started-at="2018-01-20T02:57:35Z" finished-at="2018-01-20T02:58:07Z">
+  <suite name="Suite" duration-ms="50252" started-at="2018-02-23T10:39:50Z" finished-at="2018-02-23T10:40:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31853" started-at="2018-01-20T02:57:35Z" finished-at="2018-01-20T02:58:07Z">
-      <class name="applicationTestCases.LoginCRM">
-        <test-method status="PASS" signature="setUpReports()[pri:0, instance:applicationTestCases.LoginCRM@1690630]" name="setUpReports" is-config="true" duration-ms="4584" started-at="2018-01-20T08:27:31Z" finished-at="2018-01-20T08:27:35Z">
+    <test name="Test" duration-ms="50252" started-at="2018-02-23T10:39:50Z" finished-at="2018-02-23T10:40:41Z">
+      <class name="applicationTestCases.AddUser">
+        <test-method status="PASS" signature="setUpReports()[pri:0, instance:applicationTestCases.AddUser@f82f98]" name="setUpReports" is-config="true" duration-ms="1591" started-at="2018-02-23T16:09:49Z" finished-at="2018-02-23T16:09:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReports -->
-        <test-method status="PASS" signature="startUpSession(java.lang.String)[pri:0, instance:applicationTestCases.LoginCRM@1690630]" name="startUpSession" is-config="true" duration-ms="21084" started-at="2018-01-20T08:27:35Z" finished-at="2018-01-20T08:27:56Z">
+        <test-method status="PASS" signature="startUpSession(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:applicationTestCases.AddUser@f82f98]" name="startUpSession" is-config="true" duration-ms="12204" started-at="2018-02-23T16:09:50Z" finished-at="2018-02-23T16:10:02Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[Chrome]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUpSession -->
-        <test-method status="PASS" signature="loginAdm()[pri:0, instance:applicationTestCases.LoginCRM@1690630]" name="loginAdm" duration-ms="6541" started-at="2018-01-20T08:27:56Z" finished-at="2018-01-20T08:28:03Z">
+        <test-method status="PASS" signature="userAdd()[pri:0, instance:applicationTestCases.AddUser@f82f98]" name="userAdd" duration-ms="34300" started-at="2018-02-23T16:10:02Z" finished-at="2018-02-23T16:10:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginAdm -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:applicationTestCases.LoginCRM@1690630]" name="tearDown" is-config="true" duration-ms="3547" started-at="2018-01-20T08:28:03Z" finished-at="2018-01-20T08:28:06Z">
+        </test-method> <!-- userAdd -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:applicationTestCases.AddUser@f82f98]" name="tearDown" is-config="true" duration-ms="1229" started-at="2018-02-23T16:10:37Z" finished-at="2018-02-23T16:10:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginAdm status=SUCCESS method=LoginCRM.loginAdm()[pri:0, instance:applicationTestCases.LoginCRM@1690630] output={null}]]]>
+                <![CDATA[[TestResult name=userAdd status=SUCCESS method=AddUser.userAdd()[pri:0, instance:applicationTestCases.AddUser@f82f98] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="terminateSession()[pri:0, instance:applicationTestCases.LoginCRM@1690630]" name="terminateSession" is-config="true" duration-ms="657" started-at="2018-01-20T08:28:06Z" finished-at="2018-01-20T08:28:07Z">
+        <test-method status="PASS" signature="terminateSession()[pri:0, instance:applicationTestCases.AddUser@f82f98]" name="terminateSession" is-config="true" duration-ms="2488" started-at="2018-02-23T16:10:38Z" finished-at="2018-02-23T16:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateSession -->
-        <test-method status="PASS" signature="tearDownReports()[pri:0, instance:applicationTestCases.LoginCRM@1690630]" name="tearDownReports" is-config="true" duration-ms="731" started-at="2018-01-20T08:28:07Z" finished-at="2018-01-20T08:28:08Z">
+        <test-method status="PASS" signature="tearDownReports()[pri:0, instance:applicationTestCases.AddUser@f82f98]" name="tearDownReports" is-config="true" duration-ms="3600" started-at="2018-02-23T16:10:41Z" finished-at="2018-02-23T16:10:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReports -->
-      </class> <!-- applicationTestCases.LoginCRM -->
+      </class> <!-- applicationTestCases.AddUser -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
